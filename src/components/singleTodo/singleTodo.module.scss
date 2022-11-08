@@ -1,0 +1,32 @@
+.todo {
+    padding: 4px 8px 4px 8px;
+    display: flex;
+    align-items: center;
+}
+
+.todo:hover {
+    background-color: rgba($color: #f0f0f0, $alpha: 1.0);
+}
+
+.trash {
+    font-size: 22px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+    margin-left: auto;
+    color: coral;
+}
+
+.trash:hover {
+    color: rgb(245, 65, 65);
+}
+
+.mark {
+    font-size: 22px;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

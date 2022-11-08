@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    padding-left: 38px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 34px;
+}
+
+.remaining {
+
+}
+
+.button {
+    cursor: pointer;
+    height: 25px;
+    width: 164px;
+    margin-left: 26px;
+    background-color: rgb(255, 207, 189);
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: rgb(250, 193, 173);
+}
+
+.filters {
+    
+}

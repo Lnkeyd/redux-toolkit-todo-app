@@ -1,0 +1,12 @@
+.button {
+  font-size: 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  height: 25px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border: none;
+  background-color: rgb(184, 216, 244);
+  margin-left: 5px;
+  margin-right: 5px;
+}/*# sourceMappingURL=filters.module.css.map */

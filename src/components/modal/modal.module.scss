@@ -1,0 +1,49 @@
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.modal {
+    background: whitesmoke;
+    width: 80vw;
+    max-width: 400px;
+    border-radius: 8px;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.delete {
+    cursor: pointer;
+    height: 25px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-right: 4px;
+    background-color: rgb(255, 207, 189);
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: 16px;
+}
+
+.cancel {
+    cursor: pointer;
+    height: 25px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 4px;
+    background-color: rgb(184, 216, 244);
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: 16px;
+}
+
+.cancel:hover {
+    background-color: rgb(170, 207, 240);
+}

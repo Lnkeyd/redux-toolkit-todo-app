@@ -1,0 +1,41 @@
+
+.flex {
+    display: flex;
+    align-items: baseline;
+    position: relative;
+}
+
+.about {
+    cursor: pointer;
+    font-size: 16px;
+    font-style: italic;
+    margin-right: 45px;
+    margin-left: auto;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.github {
+    cursor: pointer;
+    position: absolute;
+    font-size: 34px;
+    right: 0;
+    bottom: 6px;
+}
+
+.github:hover {
+    transform-origin: center;
+    transform: rotate(45deg);
+}
+
+.link {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+.githubLink {
+    color: black;
+}
