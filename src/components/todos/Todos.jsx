@@ -4,7 +4,6 @@ import { filteredTodosSelector } from '../../features/filters/filtersSlice'
 
 const Todos = () => {
 
-    const { todos } = useSelector(store => store.todos)
     const filteredTodos = useSelector(filteredTodosSelector)
     // console.log('I\'m mounted!')
 

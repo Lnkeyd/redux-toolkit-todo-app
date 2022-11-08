@@ -2,7 +2,7 @@ import React from 'react'
 import modalStyles from './modal.module.css'
 import { useDispatch, useSelector } from 'react-redux'
 import { closeModal } from '../../features/modal/modalSlice'
-import { deleteCompletedTodoItems, deleteTodoItem } from '../../features/todos/todosSlice'
+import { deleteTodoItem } from '../../features/todos/todosSlice'
 
 const Modal = () => {
 
